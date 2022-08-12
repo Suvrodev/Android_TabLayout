@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0E7141"
+    android:orientation="vertical"
+    tools:context=".BangladeshFragment">
+
+    <TextView
+        android:textStyle="bold"
+        android:padding="10sp"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:background="#1DE9B6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome To Bangladesh" />
+
+    <EditText
+        android:id="@+id/edit_text_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="50sp"
+        android:layout_marginRight="50sp"
+        android:hint="Enter Number"
+        android:gravity="center"
+        />
+
+    <Button
+        android:id="@+id/send_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send"
+        android:layout_gravity="center"
+        />
+
+
+</LinearLayout>

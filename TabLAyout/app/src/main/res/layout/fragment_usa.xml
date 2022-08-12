@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D8516B"
+    android:orientation="vertical"
+    tools:context=".UsaFragment">
+
+
+    <TextView
+        android:textStyle="bold"
+        android:padding="10sp"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:background="#1DE9B6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome To USA" />
+
+    <TextView
+        android:id="@+id/tv_id"
+        android:text="Show Result"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="50sp"
+        android:background="#D92BF6"
+        android:layout_width="250sp"
+        android:layout_height="100sp"
+        android:layout_gravity="center"
+        />
+
+</LinearLayout>
